@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CardView: View {
+struct CardView: View, Identifiable {
     //MARK: - PROPERTIES
     let id = UUID()
     var xplore: Destination
@@ -46,6 +46,6 @@ struct CardView: View {
 }
 
 #Preview {
-    CardView(xplore: xploreData[1])
+    CardView(xplore: xploreData[0])
         .previewLayout(.fixed(width: 375, height: 80))
 }

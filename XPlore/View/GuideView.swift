@@ -13,8 +13,7 @@ struct GuideView: View {
                 
                 Text("Get Started!")
                     .fontWeight(.black)
-                    .font(.largeTitle)
-                    .foregroundColor(Color.pink)
+                    .modifier(TitleModifier())
                      
                 Text("Discover and pick the perfect destination for your romantic Honeymoon!")
                     .lineLimit(nil)
@@ -27,7 +26,7 @@ struct GuideView: View {
                         title: "Like",
                         subtitle: "Swipe Right",
                         description: "Do you like this Destination? Touch the screen and Swipe Right. It will be Saved to the Favourites",
-                        icon: "hearts.circle"
+                        icon: "heart.circle"
                     )
                     
                     GuideComponent(
@@ -51,11 +50,7 @@ struct GuideView: View {
                     self.presentationMode.wrappedValue.dismiss()
                 }, label: {
                     Text("Continue".uppercased())
-                        .font(.headline)
-                        .padding()
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .background(Capsule().fill(Color.pink))
-                        .foregroundColor(Color.white)
+                        .modifier(ButtonModifier())
                 })
                 .accentColor(Color.primary)
             }
