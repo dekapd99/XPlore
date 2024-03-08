@@ -65,23 +65,9 @@ Here is the file and folder structure for Xplore:
 <!-- List of Features -->
 # Features:
 
-* HealthKit Integration
-* Indonesian Common Sport / Exercise / Workout
-* HealthKit Xplore Metrics (Calories Burned, Running Walking Distance, and Heart Rate)
-* Activity Rings
-* WatchOS App & Extension
-* Workout Notifications (Daily Workout Reminder at 07.00 A.M.)
-* 60 Seconds Resting / Breathing Animation
-* Pulse Animation for Breathing Flower
-* Controls View for Pause and Stop Exercising
-* Local Files Music Integration
-* Core Animation With Anchor
+* Core Animation
 * Reusable Components
 * All Stacks (HStack, VStack, ZStack)
-* User Notifications Permission
-* HealthKit Permission for Read and Write Data
-* Complication for Watch Lock Screen Mode
-* Session Get and Fetch Data
 
 <!-- Used Tools -->
 ## Build With
